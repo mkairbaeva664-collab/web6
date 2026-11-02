@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script src="program.js"></script>
+</head>
+<body>
+    <section id="portfolio">
+        <h1>Welcome to My Portfolio.</h1>
+        <h3 class="name">Madina Kairbayeva</h3>
+        <p class="headline">I'm Computer Science student.</p>
+        <p>This is a web-page with using jQuery.</p>
+
+        <button id="changeText">Change Greeting</button>
+        <button id="ligthTheme">Ligth Theme</button>
+        <button id="darkTheme">Dark Theme</button>
+    </section>
+
+    <section id="about">
+        <h2>About me</h2>
+
+        <p>At school I wrote a few math articles.</p>
+
+        <p id="status">Currently learning jQuery!</p>
+
+        <div id="funFacts">
+            <h3>Fun Facts</h3>
+            <ul>
+                <li>I enjoy learning new technologies.</li>
+                <li>I like graphic design.</li>
+                <li>My goal is to become a software developer.</li>
+            </ul>
+        </div>
+
+        <button id="hideBtn">Hide</button>
+        <button id="showBtn">Show</button>
+        <button id="toggleBtn">Toggle</button>
+    </section>
+
+    <section id="gallery">
+        <h2>My Gallery</h2>
+
+        <div class="gallery-images">
+            <img src="1_ITS_illustration.png" alt="project" class="gallery-img">
+
+            <img src="tengrism symboll.jpg" alt="tengrism_symbol" class="gallery-img">
+        </div>
+
+        <button id="fadeInBtn">Fade In</button>
+        <button id="fadeOutBtn">Fade Out</button>
+        <button id="fadeToggleBtn">Fade Toggle</button>
+    </section>
+
+    <section id="favorites">
+        <h2>My Favorites</h2>
+
+        <div class="favorite-item">
+            <h3 class="slide-heading">My Favorite Music</h3>
+            <div class="slide-panel">
+                <p>I love rock or classic music, for example "Join me in death".</p>
+            </div>
+        </div>
+
+        <div class="favorite-item">
+            <h3 class="slide-heading">My favorite Movie</h3>
+            <div class="slide-panel">
+                <p>I enjoy science fiction and adventure movies, for example "Avatar"</p>
+            </div>
+        </div>
+
+        <div class="favorite-item">
+            <h3 class="slide-heading">My Favorite Subject</h3>
+            <div class="slide-panel">
+                <p>My favorite subject is discrete math and web programming.</p>
+            </div>
+        </div>
+
+        <button id="slideDownBtn">Show All</button>
+        <button id="slideUpBtn">Hide All</button>
+    </section>
+
+    <section id="skills">
+        <h2>My Technical Skills</h2>
+
+        <ul id="skillList">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>C#</li>
+        </ul>
+
+        <input type="text" id="skillInput" placeholder="Enter a new skill">
+
+        <button id="addSkill">Add Skill</button>
+        <button id="prependSkill">Prepend Skill</button>
+        <button id="removeSkill">Remove Skill</button>
+    </section>
+
+    <section id="social">
+        <h2>My Social Media</h2>
+
+        <a id="socialLink" href="https://github.com/mkairbaeva664-collab" target="_blank">Visit My GitHub</a>
+
+        <br><br>
+
+        <button id="changeLink">Change Link to LinkedIn</button>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Form</h2>
+
+        <form id="contactForm">
+            <label for="userName">Name:</label>
+            <input type="text" id="userName" placeholder="Enter your name">
+
+            <label for="userEmail">Email:</label>
+            <input type="email" id="userEmail" placeholder="Enter your email">
+        </form>
+
+        <div id="livePreview">
+            <h3>Live Preview</h3>
+
+            <p id="previewName">Name: </p>
+            <p id="previewEmail">Email: </p>
+        </div>
+    </section>
+
+    <section id="skillAnimation">
+        <h2>My Skill levels</h2>
+
+        <div class="skill-bar-container">
+            <p>HTML - 95%</p>
+            <div class="skill-background">
+                <div class="skill-progress" data-width="95%"></div>
+            </div>
+        </div>
+
+        <div class="skill-bar-container">
+            <p>CSS - 75%</p>
+            <div class="skill-background">
+                <div class="skill-progress" data-width="75%"></div>
+            </div>
+        </div>
+
+        <div class="skill-bar-container">
+            <p>JavaScript - 60%</p>
+            <div class="skill-background">
+                <div class="skill-progress" data-width="60%"></div>
+            </div>
+        </div>
+
+        <button id="animateSkills">Animate My Skills</button>
+    </section>
+</body>
+</html>
